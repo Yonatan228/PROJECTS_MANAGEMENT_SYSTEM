@@ -1,0 +1,216 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  border: none;
+  transition: 0.2s ease;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+/* LOGIN PAGE */
+
+.login-box-container{
+  text-align: center;
+  margin: 100px 600px;
+  padding: 30px 0;
+  border: solid 3px rgb(20, 21, 85);
+  border-radius: 5px;
+}
+
+.login-box #email, .login-box #password{
+  padding-left: 10px;
+  height: 40px;
+  width: 250px;
+  border: solid 1px rgb(20, 21, 85);
+  border-radius: 3px;
+}
+
+.login-box #login{
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: rgb(20, 21, 85);
+  color: white;
+  font-size: 17px;
+  box-shadow: 0 5px 15px rgb(155, 154, 154);
+}
+
+.login-box #login:hover{
+  background-color: rgb(37, 39, 118);
+}
+
+
+
+
+
+
+
+/* HEADER */
+
+.title-panel{
+  text-align: center;
+  background-color: rgb(20, 21, 85);
+  font-size: 30px;
+  padding: 15px 0;
+  color: white;
+  border-bottom: solid 1px rgb(85, 85, 85);
+}
+
+.header{
+  background-color: rgb(20, 21, 85);
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0px 15px 15px -15px rgb(79, 78, 78);
+  position: sticky;
+  top: 0;
+}
+
+.header a{
+  padding: 20px 50px;
+  margin: 0 50px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+
+
+
+/* ALL PROJECTS PAGE */
+
+.header a:hover{
+  background-color: rgb(37, 39, 118);
+}
+
+.search-box{
+  text-align: center;
+  margin-top: 40px;
+}
+
+#search-field{
+  border: solid 2px rgb(20, 21, 85);
+  border-radius: 3px;
+  padding-left: 10px;
+  height: 40px;
+  width: 300px; 
+  box-shadow: 0 5px 15px rgb(184, 184, 184);
+}
+
+#search-btn{
+  height: 32px;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: rgb(20, 21, 85);
+  color: white;
+  font-size: 17px;
+  box-shadow: 0 5px 15px rgb(154, 153, 153);
+}
+
+#search-btn:hover{
+  background-color: rgb(37, 39, 118);
+}
+
+.project-box-container{
+  margin: 50px 400px;
+  padding: 30px 20px;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+}
+
+.project-box{
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-box input{
+  border: solid 1px rgb(20, 21, 85);
+  border-radius: 3px;
+}
+
+#new-comment, #comment-img2{
+  padding-left: 10px;
+  height: 30px;
+  width: 400px; 
+}
+
+#add-comment{
+  height: 40px;
+  width: 200px;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: rgb(20, 21, 85);
+  color: white;
+  font-size: 17px;
+  box-shadow: 0 5px 15px rgb(114, 114, 114);
+}
+
+#add-comment:hover{
+  background-color: rgb(37, 39, 118);
+}
+
+.no-projects{
+  text-align: center;
+  margin-top: 100px;
+  font-size: 28px;
+}
+
+
+
+
+
+
+/* ADD PROJECT PAGE */
+
+.add-project-box-container{
+  text-align: center;
+  margin: 50px 0;
+}
+
+.add-project-box{
+  display: flex;
+  justify-content: space-around;
+}
+
+.add-project-box input, select{
+  border: solid 1px rgb(20, 21, 85);
+  border-radius: 3px;
+}
+
+#project-name, #project-url, #project-img, #project-status, #project-comment, #comment-img1{
+  padding-left: 10px;
+  height: 40px;
+  width: 400px; 
+}
+
+#project-date{
+  text-align: center;
+  height: 40px;
+  width: 400px; 
+}
+
+#add-project{
+  margin-top: 15px;
+  height: 40px;
+  width: 250px;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: rgb(20, 21, 85);
+  color: white;
+  font-size: 17px;
+  box-shadow: 0 5px 15px rgb(114, 114, 114);
+}
+
+#add-project:hover{
+  background-color: rgb(37, 39, 118);
+}
